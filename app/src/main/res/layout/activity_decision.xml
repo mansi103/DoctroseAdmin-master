@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/appont"
+    android:layout_height="match_parent"
+    tools:context="com.example.p.doctroseadmin.Decision">
+
+    <Button
+        android:id="@+id/buttonaccept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ACCEPT APPOINTMENT"
+        android:layout_alignBaseline="@+id/buttonreject"
+        android:layout_alignBottom="@+id/buttonreject"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/buttonreject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REJECT APPOINTMENT"
+        android:layout_marginTop="69dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/buttonsend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEND"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="76dp" />
+
+    <EditText
+        android:id="@+id/editmessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/colorPrimaryDark"
+        android:inputType="textPersonName"
+        android:hint="Type some message"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:layout_marginEnd="69dp"
+        android:layout_alignBottom="@+id/buttonsend"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="90dp" />
+
+</RelativeLayout>

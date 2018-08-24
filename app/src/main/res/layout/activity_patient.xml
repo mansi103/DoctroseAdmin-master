@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/doctorlogin"
+    tools:context="com.example.p.doctroseadmin.PatientActivity">
+
+    <EditText
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:hint="ENTER DOCTOR NAME"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/doctorsname"
+        android:layout_marginTop="92dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+
+        android:text="SUBMIT"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/doctorsname"
+        android:layout_alignStart="@+id/doctorsname" />
+
+    <Button
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:text="SIGN OUT"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/signout"
+        android:layout_below="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginTop="12dp" />
+    <Button
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:text="RATE YOUR DOCTOR"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/rate"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/signout"
+        android:layout_alignStart="@+id/signout" />
+
+
+</RelativeLayout>
